@@ -153,5 +153,5 @@ app.get('*', (req,res) => {
 })
 
 server.listen(PORT, () => {
-    console.log('API activated, Port: 5000')
+    console.log(`Listeing on ${PORT}`)
 })
